@@ -9,4 +9,4 @@ function namesFunctions ( firstName , lastName){
     "cognome": lastName}
 };
 
-console.log(namesFunctions("Carmelo" , "Ziino"))
+module.exports = { namesFunctions }
